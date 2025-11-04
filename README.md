@@ -21,6 +21,7 @@ and welcomes community contributions for new features, enhancements, and fixes.*
 ### Community Development
 
 **VSecM's future is in the hands of the community.** We welcome and encourage:
+
 * New feature implementations
 * Bug fixes and improvements
 * Documentation enhancements
@@ -30,7 +31,8 @@ The more the community contributes, the more **VSecM** will grow and evolve.
 
 ### Get Involved
 
-If you're interested in cloud-native secrets management:
+If you're interested in Cloud-Native Secrets Management:
+
 * **Contribute to VSecM**: Pick up issues, propose features, submit PRs
 * **Explore SPIKE**: Check out [SPIKE](https://spike.ist) and its architecture
 * **Join discussions**: Connect with us on [Slack][slack-invite] or the 
@@ -41,7 +43,7 @@ maintained.
 > 
 > Current development happens on the `main` branch.
 
-Thank you for your continued support!
+Thank you for your continued support.
 
 ## About
 
