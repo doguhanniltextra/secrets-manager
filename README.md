@@ -1,51 +1,47 @@
-## **VMware Secrets Manager** *for cloud-native apps*
-
-![VSecM Logo](https://github.com/vmware/secrets-manager/assets/1041224/885c11ac-7269-4344-a376-0d0a0fb082a7)
-
-## ⚠️ Important: v2.0.0 Work in Progress
-
-A major architectural redesign is underway in the 
-[`feature/v2.0.0-preview`](https://github.com/vmware/secrets-manager/tree/feature/v2.0.0-preview) 
-branch. **This `v2.0.0-preview` branch is currently non-functional 
-and under heavy development**.
+## ⚠️ Important: Project Status Update
 
 ### Current Status
 
-* **v0.x**: This version is now in **maintenance mode** and will only receive 
-  security updates.
-* **v2.0.0**: Early development phase.
+**VSecM v0.x is stable, production-ready, and actively maintained.**
 
-### What's Coming in v2
-
-The v2 release will completely transform VSecM by integrating 
-[SPIKE](https://spike.ist) as the backend storage engine:
-* Replace the secrets backing store with [SPIKE](https://spike.ist/)
-* Transform **VSecM** into a lifecycle manager and orchestration layer
-* Enhanced SPIFFE-native architecture
-* Future UI and fleet management capabilities
+The core maintainer team is focusing development efforts on [**SPIKE**](https://spike.ist), 
+a next-generation [**SPIFFE**](https://spiffe.io/)-native secrets management solution 
+built with lessons learned from **VSecM**. However, **VSecM remains an active project 
+and welcomes community contributions for new features, enhancements, and fixes.**
 
 ### For Users
 
-- **All users**: Continue using v0.x---it remains stable and will receive 
-  security patches
-- **v2.0.0 timeline**: TBD---this is a major rewrite and will take time
-- **Contributing**: If you're interested in the v2 architecture, watch the 
-  preview branch but note it's not ready for contributions yet. We will
-  inform the community when the codebase is ready for contributions.
+* **v0.x users**: Continue using v0.x with confidence—it remains stable, secure, 
+  and production-ready
+* **Looking for next-gen features?** Check out [SPIKE](https://spike.ist) as it 
+  matures
+* **Want to contribute?** We actively welcome contributions! Check our 
+  [open issues](https://github.com/vmware/secrets-manager/issues) to get started
 
-### Note
+### Community Development
 
-The v2 branch exists for development purposes only. **Do not attempt to use 
-it**---it's a work in progress, and nothing is functional yet. We'll announce 
-when there's something ready to test.
+**VSecM's future is in the hands of the community.** We welcome and encourage:
+* New feature implementations
+* Bug fixes and improvements
+* Documentation enhancements
+* Use case examples
 
-Thank you for your understanding and continued support.
+The more the community contributes, the more **VSecM** will grow and evolve.
 
-----
+### Get Involved
 
-**Below is the v0.x README**:
+If you're interested in cloud-native secrets management:
+* **Contribute to VSecM**: Pick up issues, propose features, submit PRs
+* **Explore SPIKE**: Check out [SPIKE](https://spike.ist) and its architecture
+* **Join discussions**: Connect with us on [Slack][slack-invite] or the 
+  [SPIFFE Slack Workspace](https://slack.spiffe.io/)
 
-----
+> **Note:** The `feature/v2.0.0-preview` branch is experimental and not actively 
+maintained.
+> 
+> Current development happens on the `main` branch.
+
+Thank you for your continued support!
 
 ## About
 
@@ -57,19 +53,6 @@ By using **VSecM** you can `#sleepmore` while keeping your secrets… secret.
 Want to get started quickly? [Check out our quickstart tutorial][quickstart].
 
 🐢⚡️
-
----
-
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7793/badge)](https://www.bestpractices.dev/projects/7793)
-[![Version](https://img.shields.io/github/v/release/vmware-tanzu/secrets-manager?color=blueviolet)](https://github.com/vmware/secrets-manager/releases)
-[![Contributors](https://img.shields.io/github/contributors/vmware-tanzu/secrets-manager.svg?color=orange)](https://github.com/vmware/secrets-manager/graphs/contributors)
-[![Slack](https://img.shields.io/badge/slack-vsecm-brightgreen.svg?logo=slack)](https://join.slack.com/t/a-101-103-105-s/shared_invite/zt-287dbddk7-GCX495NK~FwO3bh_DAMAtQ)
-[![Twitch](https://img.shields.io/twitch/status/vadidekivolkan)](https://twitch.tv/vadidekivolkan)
-[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/vsecm)](https://artifacthub.io/packages/helm/vsecm/vsecm)
-[![License](https://img.shields.io/github/license/vmware-tanzu/secrets-manager)](https://github.com/vmware/secrets-manager/blob/main/LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/vmware/secrets-manager)](https://goreportcard.com/report/github.com/vmware/secrets-manager)
-[![Go Coverage](https://github.com/vmware/secrets-manager/wiki/coverage.svg)](https://raw.githack.com/wiki/vmware-tanzu/secrets-manager/coverage.html)
-[![Using Better Commits](https://img.shields.io/badge/better--commits-enabled?style=for-the-badge&logo=git&color=a6e3a1&logoColor=D9E0EE&labelColor=302D41)](https://github.com/Everduin94/better-commits)
 
 ## The Elevator Pitch
 
